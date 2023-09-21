@@ -1,0 +1,125 @@
+.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.touch-content {
+    margin: 3rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.touch-content img {
+    width: 21px;
+    height: 25px;
+    margin-left: 2rem;
+}
+
+.touch-title h2 {
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.touch-information,
+.touch-state,
+.touch-call,
+.touch-time {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.share {
+    padding-top: 0.5rem;
+}
+
+.share h2 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.share-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+}
+
+.submit-message {
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.star-container img {
+    margin: -4rem 25rem;
+}
+
+.message {
+    margin: 3rem 3rem;
+}
+
+.message-desc h3,
+.message-desc h4 {
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.message-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.message-input input {
+    width: 430px;
+    height: 47px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.message-input input::placeholder {
+    padding-left: 2rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: -2rem 14rem;
+    width: 172px;
+    height: 53px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.btn-submit h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}

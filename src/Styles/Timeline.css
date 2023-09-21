@@ -1,0 +1,126 @@
+.timeline-container {
+    background-color: #150E28;
+}
+
+.timeline-title h2 {
+    text-align: center;
+    padding-top: 3rem;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0%;
+}
+
+.timeline-title p {
+    left: 90%;
+    right: 10%;
+    padding-top: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 5rem 0 5rem;
+    gap: 4rem;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    float: left;
+    margin-right: 4rem; 
+    margin-left: 5rem;
+    width: 30%;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content-left img {
+    width: 30px;
+    height: 36px;
+}
+
+.hackathon-announcement h2,
+.hackathon-announcement-date h2,
+.announcement h2,
+.announcement-date h2,
+.reg-end h2,
+.reg-end-date h2,
+.hackathon-begin h2,
+.hackathon-date h2,
+.reg-begin-date h2,
+.reg-begins h2,
+.demo-date h2,
+.demo h2 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hackathon-announcement p,
+.announcement p,
+.reg-end p,
+.hackathon-begin p,
+.reg-begins p,
+.demo p {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hackathon-announcement h2 {
+}
+
+.content-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}
+
+.straight-line {
+    width: 4px;
+    height: 137px;
+    background: #D434FE;
+}
+
+.circle {
+    width: 53px;
+    height: 53px;
+    border-radius: 26.5px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.line {
+    width: 4px;
+    height: 86px;   
+    background: #D434FE;
+}

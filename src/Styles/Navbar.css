@@ -1,0 +1,63 @@
+.navbar-container {
+    background-color: #150E28;
+}
+
+.navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 8rem;
+}
+
+.navbar-title h2 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navbar-title h2 span {
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    margin-left: 22rem;
+}
+
+.navbar-items li {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 172px;
+    height: 53px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.register-btn h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
